@@ -1,9 +1,7 @@
 # Twitter
-ASP.NET code when displaying Twitter stream on page
+ASP.NET code when displaying Twitter stream on page.
 
-Public Function fixTwitterDate(ByVal dt As DateTime) As String
-        'Return dateadded.ToString("dddd") & ", " & dateadded.ToString("dd MMMM yyyy")
-        'Return dateadded.ToString("dd MMMM yyyy")
+    Public Function fixTwitterDate(ByVal dt As DateTime) As String
 
         If dt > DateTime.Now Then
             Return "sometime from now"
